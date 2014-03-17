@@ -1,0 +1,28 @@
+{
+  "name": "masegalab.github.io",
+  "version": "0.1.0",
+  "description": "Masega Lab",
+  "main": "index.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masegalab/masegalab.github.io.git"
+  },
+  "keywords": [
+    "masega",
+    "d3"
+  ],
+  "author": "Pablo Navarro Castillo <pnavarrc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masegalab/masegalab.github.io/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-less": "~0.10.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-watch": "~0.6.0"
+  }
+}
