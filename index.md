@@ -5,6 +5,9 @@ title: Masega
 
 <div class="brand">
     <h1 class="brand-name">:Masega</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-</div>
+    <p class="lead">Data Visualization Agency based in Santiago, Chile.</p>
 
+    <address>
+        <a href="mailto:contact@masega.co">Contact us</a>
+    </address>
+</div>

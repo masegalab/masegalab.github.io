@@ -6,6 +6,20 @@ module.exports = function(grunt) {
         // Import the package configuration
         pkg: grunt.file.readJSON('package.json'),
 
+        copy: {
+            bootstrapIcons: {
+                files: [
+                    {
+                        cwd: 'bower_components/bootstrap/dist/fonts',
+                        expand: true,
+                        src: ['*'],
+                        dest: 'assets/fonts/',
+                        filter: 'isFile'
+                    }
+                ]
+            }
+        },
+
         less : {
             masega: {
                 options: {
@@ -28,6 +42,7 @@ module.exports = function(grunt) {
 
     // Node Packages
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Tasks
