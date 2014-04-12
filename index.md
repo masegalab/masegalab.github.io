@@ -68,7 +68,7 @@ Our aim is to build beautiful data visualization for the web and printed media, 
 
 <div class="row">
 	<div class="col-md-4"> 
-		<h3> Network Chart</h3>
+		<h3> <a href="/network-chart/demo/"> Network Chart </a> </h3>
 	</div>
 
 	<div class="col-md-4">
