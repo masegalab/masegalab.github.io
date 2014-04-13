@@ -17,7 +17,7 @@ title: Masega
 
 		<h1>Team</h1>
 
-		Our team consists in a duo of life-long partners from Santiago, Chile, with a versatile background in computer sciences, mathematics and statistics.
+		Our team consists in a tandem of young developpers from Santiago, Chile, with a versatile background in computer sciences, mathematics and statistics.
 
 		<div class="row">
 			<div class="col-md-6">
