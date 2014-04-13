@@ -3,53 +3,36 @@ layout: home
 title: Network Chart
 ---
 
-<link href="https://rawgithub.com/poderopedia/panama-network/master/css/index.css" rel="stylesheet">
+<!-- <link href="https://rawgithub.com/poderopedia/panama-network/master/css/index.css" rel="stylesheet"> -->
 <script src="https://rawgithub.com/poderopedia/panama-network/master/js/lib/d3.min.js"></script>
 <script src="https://rawgithub.com/poderopedia/panama-network/master/src/pty.js"></script>
 <link href="https://rawgithub.com/poderopedia/panama-network/master/css/font-awesome.min.css" rel="stylesheet">
 
-<div>
-    <h1 class="text-center"> A Network Chart</h1>
-</div>
+<div class="container">
 
-<div class="row" style="margin-top:1cm">
-    <div class="col-lg-8 col-lg-offset-2">
-        <div id="demo"></div>
-    </div>
-</div>
+    <h1>Network Chart</h1>
 
-<div class="project-review" style="margin-top:1.5cm; margin-left:4cm;margin-right:4cm;">
+    <div id="demo"></div>
 
-    <p style="margin-bottom:0.5cm;">
-        Masega developed a web tool for <a href:"http://www.poderopedia.org/"> Poderopedia Foundation </a> aimed at visualizing the influence networks of candidates for the Panama 2014 elections. The application is based on our Network-Chart script (link to demo).
-    </p>
+    Masega developed a web tool for <a href="http://www.poderopedia.org/">Poderopedia Foundation</a> aimed at visualizing the influence networks of candidates for the Panama 2014 elections. The application is based on our Network-Chart script (link to demo).
 
-    <img src="/../panama1.jpg" style="height:8cm;"/>
+    <img src="{{site.baseurl}}/portfolio/img/panama1.jpg" class="img-responsive" alt="Network">
 
-    <p style="margin-top:0.5cm; margin-bottom:0.5cm;">
-        The above is a partial view of the relation map of candidate Marta Linares. Below, a closer look at the relation map of Presidential candidate José Domingo Arias.
-    </p>
+    The above is a partial view of the relation map of candidate Marta Linares. Below, a closer look at the relation map of Presidential candidate José Domingo Arias.
 
-    <img src="/../panama2.jpg" style="height:8cm">
+    <img src="{{site.baseurl}}/portfolio/img/panama2.jpg" class="img-responsive" alt="Website">
 
-    <p style="margin-top:0.5cm">
-        The project is hosted at this <a href:"http://candidatos2014.prensa.com/"> URL </a>.
-    </p>
+    The project is hosted at this <a href="http://candidatos2014.prensa.com/">URL</a>.
 
 </div>
-
-<div class="row" style="margin-top:1cm">
-    <div class="col-lg-8 col-lg-offset-2">
-        <div id="huge-demo"></div>
-    </div>
-</div>
-
-
 
 <script>
-d3.json('https://rawgithub.com/poderopedia/panama-network/master/data/A.json', function(error, data) {
+d3.json('{{site.baseurl}}/portfolio/data/network-data.json', function(error, data) {
 
-    if (error) { return error; }
+    if (error) {
+        console.log(error);
+        return error;
+    }
 
     var width = parseInt(d3.select('#demo').style('width'), 10),
         height = 400;
@@ -75,21 +58,21 @@ d3.json('https://rawgithub.com/poderopedia/panama-network/master/data/A.json', f
 </script>
 
 <script>
-d3.json('https://rawgithub.com/poderopedia/panama-network/master/data/A.json', function(error, data) {
+// d3.json('https://rawgithub.com/poderopedia/panama-network/master/data/A.json', function(error, data) {
 
-    if (error) { return error; }
+//     if (error) { return error; }
 
-    var width = parseInt(d3.select('#huge-demo').style('width'), 10),
-        height = 400; 
+//     var width = parseInt(d3.select('#huge-demo').style('width'), 10),
+//         height = 400;
 
-    var chart01 = pty.chart.network()
-        .width(width)
-        .height(height)
-        .nodeRadius(15)
-        .nodeClass(function(d) { return d.type; })
-        .nodeBaseURL(function(d) { return 'https://rawgithub.com/poderopedia/panama-network/master/data/' + d.id + '.json'; });
-        
+//     var chart01 = pty.chart.network()
+//         .width(width)
+//         .height(height)
+//         .nodeRadius(15)
+//         .nodeClass(function(d) { return d.type; })
+//         .nodeBaseURL(function(d) { return 'https://rawgithub.com/poderopedia/panama-network/master/data/' + d.id + '.json'; });
 
-    d3.select('div#huge-demo').data([data]).call(chart01);
-});
+
+//     d3.select('div#huge-demo').data([data]).call(chart01);
+// });
 </script>

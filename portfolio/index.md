@@ -16,6 +16,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <ul>
     <li><a href="{{site.baseurl}}/portfolio/earthquakes">Earthquake Map</a></li>
+    <li><a href="{{site.baseurl}}/portfolio/network-chart">Network Chart</a></li>
 </ul>
 
 

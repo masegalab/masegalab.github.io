@@ -52,14 +52,16 @@ title: Masega
 
 		<h1>Portfolio</h1>
 
+		Check our <a href="{{site.baseurl}}/portfolio">portfolio</a>.
+
 		<div class="row">
 
 			<div class="col-md-4">
-				<h3><a href="/network-chart/demo/">Network Chart</a></h3>
+				<h3><a href="{{site.baseurl}}/portfolio/network-chart/">Network Chart</a></h3>
 			</div>
 
 			<div class="col-md-4">
-				<h3>Sismic earth</h3>
+				<h3><a href="{{site.baseurl}}/portfolio/earthquakes"></a>Earthquakes</h3>
 			</div>
 
 			<div class="col-md-4">
