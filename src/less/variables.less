@@ -3,27 +3,53 @@
 // Named Colors
 @color-grey-m: #555;
 
-
 @color-blue-m:  #00A8C6;
 @color-blue-l:  #40C0CB;
 @color-white:   #F9F2E7;
 @color-green-l: #AEE239;
 @color-green-m: #8FBE00;
 
-// font-family: 'Alegreya Sans SC', sans-serif;
-// font-family: 'Telex', sans-serif;
-// font-family: 'Scada', sans-serif;
-
-
 // General
 @body-bg: @color-white;
 
 
+.home-section {
+
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    color: @color-grey-m;
+
+    h1 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px @color-grey-m;
+
+        font-family: 'Lato', serif;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        font-family: 'Lato', serif;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'Lato', serif;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+
 // Brand
 .brand {
-    h1.brand-name {
+    .brand-name {
         padding-top: 40px;
-        padding-bottom: 2px;
+        padding-bottom: 10px;
 
         color: @color-grey-m;
         font-family: 'Telex', sans-serif;
@@ -51,5 +77,8 @@
             line-height: 1.3;
         }
     }
-
 }
+
+
+
+
