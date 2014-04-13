@@ -31,11 +31,11 @@ title: Network Chart
 
     <img src="{{site.baseurl}}/portfolio/img/panama2.jpg" class="img-responsive" alt="Website">
 
-    <p>The Network Chart demo and documentation can be seen at the following <a href="http://poderopedia.github.io/panama-network/">URL</a>. The code is licensed as open-souce and hosted in a GitHub <a href="https://github.com/poderopedia/panama-network"> repository</a>. It includes many more features as clickable node to expand the graph with new data, refresh and fullscreen among other</p>
+    <p>The Network Chart demo and documentation can be seen at the following <a href="http://poderopedia.github.io/panama-network/">URL</a>. The code is licensed as open-souce and hosted in a GitHub <a href="https://github.com/poderopedia/panama-network"> repository</a>. It includes many more features as clickable node to expand the graph with new data, refresh and fullscreen among others.</p>
 
     <div id="demo-network-chart"></div>
 
-    <p> The Network Chart can support much bigger amounts of data as it is shown in the <a href="{{ site.baseurl/portfolio/random-network.md}}"> Random Network </a>example.  The following is a screenshot corresponding to a graph with 1000 nodes and randomly assigned links.
+    <p> The Network Chart can support much bigger amounts of data as it is shown in the <a href="{{ site.baseurl }}/portfolio/random-network.md"> Random Network </a>example.  The following is a screenshot corresponding to a graph with 1000 nodes and randomly assigned links.
 
     <img src="{{site.baseurl}}/portfolio/img/panama2.jpg" class="img-responsive" alt="Website">
 
