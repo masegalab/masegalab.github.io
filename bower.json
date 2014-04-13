@@ -24,6 +24,7 @@
     "bootstrap": "~3.1.1",
     "d3": "~3.4.5",
     "d3-geo-projection": "https://github.com/d3/d3-geo-projection.git#~0.2.9",
-    "topojson": "~1.6.7"
+    "topojson": "~1.6.7",
+    "panama-network": "https://github.com/poderopedia/panama-network.git#~0.2.0"
   }
 }
