@@ -10,7 +10,7 @@ title: Masega
 	    <h1 class="brand-name">:Masega</h1>
 	    <p class="lead">Data Visualization Agency based in Santiago, Chile.</p>
 
-		<p class="home-section">Masega is a young data visualization agency founded in Santiago, Chile. We blend state-of-the-art computational tools with elegant design to create functional and beautiful data visualizations for the web and printed media.</p>
+		<p class="home-section abstract">Masega is a young data visualization agency founded in Santiago, Chile. We blend state-of-the-art computational tools with elegant design to create functional and beautiful data visualizations for the web and printed media.</p>
 	</div>
 
 	<div class="home-section">
@@ -39,16 +39,47 @@ title: Masega
 
 		<h1>Services</h1>
 
-		Our aim is to build beautiful data visualization for the web and printed media, with a strong compromise with functionality and esthetics. We provide clean data analysis oriented toward its visualization.
-
+		Our aim is to build beautiful data visualization for the web and printed media, with a strong compromise with functionality and esthetics. We provide clean data analysis oriented toward its visualization. At Masega, we offer a wide range of data visualization solution for the web and printed media such as:
 		<ul>
 			<li> Static and dynamic data visualizations </li>
 			<li> Web based data visualization applications </li>
 			<li> Map based applications </li>
-			<li> Dynamic dashboards and (...) </li>
+			<li> Dynamic dashboards </li>
 			<li> Data journalism tools </li>
 			<li> Data analysis oriented to visualization</li>
 		</ul>
+
+		Our data visualization services involve three fundamental steps: 
+
+		<div class="row">
+			<div class="col-md-4">
+
+				<h2>Analysis</h2>
+
+				Every great visualization starts with a robust handling of the underlying data. Whether it is an exploratory or a ....... visualization, solid data analysis is the fundamental step to build a clear and functional visualization.
+
+
+			</div>
+
+			<div class="col-md-4">
+
+				<h2>Design</h2>
+
+				What is the best way to present your data? Our team is always looking for functional and elegant solutions that blend refined design with a clear presentation of the data.
+
+				
+			</div>
+
+			<div class="col-md-4">
+
+				<h2>Visualization</h2>
+
+				We use state-of-the art computational tools to build beautiful data visualizations for the web and printed media. 
+
+				
+			</div>
+			
+	</div>
 
 		<h1>Portfolio</h1>
 
