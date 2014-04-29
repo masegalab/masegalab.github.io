@@ -269,7 +269,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333333;
-  background-color: #f9f2e7;
 }
 input,
 button,
@@ -5773,14 +5772,14 @@ button.close {
   }
 }
 #home-content {
-  margin-bottom: 160px;
+  
 }
 .home-section {
   font-family: 'Lora', sans-serif;
   font-size: 16px;
   color: #555555;
-  width: 66%;
-  margin-left: 16%;
+  background-color: #e1f5c4;
+  width: 100%;
 }
 .home-section h1 {
   color: #00a8c6;
@@ -5802,6 +5801,16 @@ button.close {
   font-family: 'Lato', serif;
   font-size: 14px;
   text-transform: uppercase;
+}
+.home-section-items {
+  width: 66%;
+  margin-left: 16.6%;
+  margin-bottom: 30px;
+}
+.brand {
+  background-color: #f9f2e7;
+  width:100%;
+  box-sizing: margin-box;
 }
 .brand .brand-name {
   padding-top: 40px;
@@ -5845,6 +5854,11 @@ button.close {
   font-size: 20px;
 }
 
-.training {
-  background-color: ;
+.abstract {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 30px 0 30px 0;
 }
+
+
