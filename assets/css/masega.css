@@ -5832,10 +5832,19 @@ button.close {
 #footer {
   position: fixed;
   bottom: 0;
-  height: 120px;
+  height: 70px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   background-color: #333333;
   color: #bbbbbb;
+}
+
+#brand-footer {
+  padding-top: :10px;
+  font-size: 20px;
+}
+
+.training {
+  background-color: ;
 }
