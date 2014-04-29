@@ -5779,6 +5779,8 @@ button.close {
   font-family: 'Lora', sans-serif;
   font-size: 16px;
   color: #555555;
+  width: 66%;
+  margin-left: 16%;
 }
 .home-section h1 {
   color: #00a8c6;
