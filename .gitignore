@@ -1,4 +1,7 @@
 
+.DS_Store
 _site/
 bower_components
 node_modules
+
+portfolio/data/ne_10m_land.*

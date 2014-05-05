@@ -1,4 +1,4 @@
 masegalab.github.io
 ===================
 
-Masega Labs
+Masega Web Site
