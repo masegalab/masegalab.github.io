@@ -4,7 +4,6 @@ markdown: rdiscount
 pigments: true
 permalink: pretty
 exclude:
-    - bower_components
     - node_modules
     - Gruntfile.js
     - bower.json

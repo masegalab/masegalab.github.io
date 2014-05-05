@@ -1,8 +1,10 @@
 
 
 // Named Colors
-@color-grey-m: #555;
-
+@color-grey-l:  #fefefe;
+@color-grey-ml: #bbb;
+@color-grey-m:  #555;
+@color-grey-d:  #333;
 
 @color-blue-m:  #00A8C6;
 @color-blue-l:  #40C0CB;
@@ -10,20 +12,52 @@
 @color-green-l: #AEE239;
 @color-green-m: #8FBE00;
 
-// font-family: 'Alegreya Sans SC', sans-serif;
-// font-family: 'Telex', sans-serif;
-// font-family: 'Scada', sans-serif;
-
-
 // General
-@body-bg: @color-white;
+@body-bg: @color-grey-l;
 
+#home-content {
+    margin-bottom: 160px;
+}
+
+.home-section {
+
+    font-family: 'Lora', sans-serif;
+    font-size: 16px;
+    color: @color-grey-m;
+
+    h1 {
+        color: @color-green-m;
+
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px @color-green-m;
+
+        font-family: 'Lato', serif;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        font-family: 'Lato', serif;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: 'Lato', serif;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
 
 // Brand
 .brand {
-    h1.brand-name {
+    .brand-name {
         padding-top: 40px;
-        padding-bottom: 2px;
+        padding-bottom: 10px;
 
         color: @color-grey-m;
         font-family: 'Telex', sans-serif;
@@ -37,7 +71,7 @@
         text-align: center;
         font-family: 'Lato', sans-serif;
         font-size: 22px;
-        color: #959595;
+        color: @color-grey-ml;
     }
 
     address {
@@ -51,5 +85,22 @@
             line-height: 1.3;
         }
     }
-
 }
+
+// Footer
+// ------
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 120px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    background-color: @color-grey-d;
+    color: @color-grey-ml;
+}
+
+
+
+
