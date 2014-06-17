@@ -10,7 +10,7 @@ title: Masega
 	    <p class="lead">Data Visualization Agency based in Santiago, Chile.</p>
 	</div>
 
-	<div class="home-section">
+	<div class="home-section" style="width:66%; margin-left:16.5%;">
 		<h1> Services </h1>
 		Our aim is to build beautiful data visualizations for the web and printed media, with a strong compromise with functionality and esthetics. We provide clean data analysis oriented toward its visualization. At Masega, we offer a wide range of data visualization solutions:
 		<ul>
