@@ -5,6 +5,7 @@ pigments: true
 permalink: pretty
 exclude:
     - node_modules
+    - bower_components
     - Gruntfile.js
     - bower.json
     - package.json
