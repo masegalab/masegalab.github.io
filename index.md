@@ -38,7 +38,8 @@ title: Masega
 	<div class="col-md-8" style="padding-top:5px">
 	<address>
 		Alonso de Cordova 5045, Ap. 1710, Las Condes, Chile<br>
-		(+56 9) 523 86 270
+		(+56 9) 523 86 270<br>
+		<a href="mailto:contact@masega.co" class="contact-email">contact@masega.co</a>
 	</address>
 	</div>
 

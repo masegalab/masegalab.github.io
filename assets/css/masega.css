@@ -3873,8 +3873,11 @@ input[type="button"].btn-block {
   height: 120px;
   width: 100%;
   padding-top: 20px;
-  padding-bottom: 20px;
   text-align: center;
   background-color: #333333;
   color: #bbbbbb;
+}
+#footer .contact-email {
+  font-size: 14px;
+  color: #fefefe;
 }
