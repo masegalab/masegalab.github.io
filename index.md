@@ -10,7 +10,7 @@ title: Masega
 	    <p class="lead">Data Visualization Agency based in Santiago, Chile.</p>
 	</div>
 
-	<div class="home-section">
+	<div class="home-section" style="width:66%; margin-left:16.5%;">
 		<h1> Services </h1>
 		Our aim is to build beautiful data visualizations for the web and printed media, with a strong compromise with functionality and esthetics. We provide clean data analysis oriented toward its visualization. At Masega, we offer a wide range of data visualization solutions:
 		<ul>
@@ -38,7 +38,8 @@ title: Masega
 	<div class="col-md-8" style="padding-top:5px">
 	<address>
 		Alonso de Cordova 5045, Ap. 1710, Las Condes, Chile<br>
-		(+56 9) 523 86 270
+		(+56 9) 523 86 270<br>
+		<a href="mailto:contact@masega.co" class="contact-email">contact@masega.co</a>
 	</address>
 	</div>
 
